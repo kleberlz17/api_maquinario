@@ -14,6 +14,8 @@ import automacao.industrial.maquinario.model.Dispositivo;
 import automacao.industrial.maquinario.model.Setor;
 import automacao.industrial.maquinario.repository.RegistroExecucaoRepository;
 
+
+// TESTA ISOLADAMENTE A LÓGICA DO SERVICE E REPOSITÓRIO, SÓ ISSO!!!
 @DataJpaTest
 public class RegistroExecucaoServiceTest {
 	

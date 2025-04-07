@@ -15,7 +15,7 @@ public enum Dispositivo {
 
 	public static Dispositivo fromCodigo(int codigo) {
 		for (Dispositivo dispositivo : values()) {
-			if (dispositivo.codigo == codigo) {
+			if (dispositivo.getCodigo() == codigo) {
 				return dispositivo;
 			}
 		}
